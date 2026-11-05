@@ -23,9 +23,20 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
 ## 💻 Projeto
 
-O FuelCalculator é um aplicativo Android para calcular o gasto estimado com combustível em uma viagem. O usuário informa a distância a percorrer, o consumo do veículo em quilômetros por litro e o preço do litro do combustível. Ao final, o aplicativo apresenta um resumo dos dados e o custo total estimado, com a opção de iniciar um novo cálculo.
+O **FuelCalculator** é um aplicativo Android que calcula o gasto estimado com combustível de uma viagem, considerando a distância do percurso, o consumo médio do veículo e o preço por litro.
 
-O projeto foi desenvolvido para praticar o desenvolvimento Android com Kotlin, a criação de interfaces com XML e a navegação entre telas.
+O preenchimento é dividido em etapas, com uma tela para cada informação. Ao final, o aplicativo apresenta um resumo dos valores informados e o custo estimado da viagem.
+
+O projeto foi desenvolvido para praticar o desenvolvimento Android com **Kotlin** e a construção de interfaces com **XML**.
+
+### Funcionalidades e conceitos aplicados
+
+- **Preenchimento em etapas:** telas para informar distância, consumo médio e preço do combustível, utilizando Activities e Intents para navegação e passagem de dados.
+- **Validação dos campos:** tratamento das entradas para evitar valores vazios, inválidos ou menores ou iguais a zero.
+- **Controle das casas decimais:** filtro personalizado para limitar os valores digitados a duas casas decimais.
+- **Resumo da viagem:** apresentação da distância, consumo, preço por litro e custo estimado, com formatação dos valores numéricos.
+- **Novo cálculo:** opção de retornar à tela inicial e iniciar outra simulação.
+- **Interface em XML:** organização dos elementos com ConstraintLayout, recursos visuais personalizados e temas e componentes do Material Components.
 
 ## ▶️ Como rodar o projeto
 
