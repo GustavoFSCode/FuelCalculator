@@ -7,7 +7,7 @@ Uma calculadora de combustível para Android, desenvolvida com Kotlin e XML. <br
 <br>
 
 <p align="center">
-  <img alt="Telas do aplicativo FuelCalculator" src=".github/telas_calculadora_combustivel.png" width="100%">
+  <img alt="Banner do FuelCalculator com as cinco telas do aplicativo" src=".github/banner-fuelcalculator.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
