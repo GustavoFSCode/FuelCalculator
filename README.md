@@ -1,18 +1,18 @@
-<h1 align="center"> FuelCalculator </h1>
+﻿<h1 align="center"> FuelCalculator </h1>
 
 <p align="center">
-Uma calculadora de combustível para Android, desenvolvida com Kotlin e XML. <br/>
+An Android fuel cost calculator built with Kotlin and XML. <br/>
 </p>
 
 <br>
 
 <p align="center">
-  <img alt="Banner do FuelCalculator com as cinco telas do aplicativo" src=".github/banner-fuelcalculator.png" width="100%">
+  <img alt="FuelCalculator banner showing the application's five screens" src=".github/banner-fuelcalculator.png" width="100%">
 </p>
 
-## 🚀 Tecnologias
+## 🚀 Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
+This project was developed with the following technologies and tools:
 
 - Kotlin
 - XML
@@ -21,50 +21,50 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 - Gradle
 - Android Studio
 
-## 💻 Projeto
+## 💻 Project
 
-O **FuelCalculator** é um aplicativo Android que calcula o gasto estimado com combustível de uma viagem, considerando a distância do percurso, o consumo médio do veículo e o preço por litro.
+**FuelCalculator** is an Android application that estimates a trip's fuel cost based on travel distance, the vehicle's average fuel economy, and the price per liter.
 
-O preenchimento é dividido em etapas, com uma tela para cada informação. Ao final, o aplicativo apresenta um resumo dos valores informados e o custo estimado da viagem.
+Input is divided into steps, with a separate screen for each measurement. At the end, the application displays a summary of the entered values and the estimated trip cost.
 
-O projeto foi desenvolvido para praticar o desenvolvimento Android com **Kotlin** e a construção de interfaces com **XML**.
+The project was developed to practice Android development with **Kotlin** and interface design with **XML**.
 
-### Funcionalidades e conceitos aplicados
+### Features and applied concepts
 
-- **Preenchimento em etapas:** telas para informar distância, consumo médio e preço do combustível, utilizando Activities e Intents para navegação e passagem de dados.
-- **Validação dos campos:** tratamento das entradas para evitar valores vazios, inválidos ou menores ou iguais a zero.
-- **Controle das casas decimais:** filtro personalizado para limitar os valores digitados a duas casas decimais.
-- **Resumo da viagem:** apresentação da distância, consumo, preço por litro e custo estimado, com formatação dos valores numéricos.
-- **Novo cálculo:** opção de retornar à tela inicial e iniciar outra simulação.
-- **Interface em XML:** organização dos elementos com ConstraintLayout, recursos visuais personalizados e temas e componentes do Material Components.
+- **Step-by-step input:** screens for distance, average fuel economy, and fuel price, using Activities and Intents for navigation and data passing.
+- **Input validation:** checks for empty, invalid, or non-positive values.
+- **Decimal precision:** a custom input filter limits entered values to two decimal places.
+- **Trip summary:** displays distance, fuel economy, price per liter, and estimated cost, with formatted numeric values.
+- **New calculation:** an option to return to the initial screen and start another simulation.
+- **XML interface:** ConstraintLayout, custom visual resources, and Material Components themes and components.
 
-## ▶️ Como rodar o projeto
+## ▶️ Running the project
 
-### Pré-requisitos
+### Prerequisites
 
 - [Git](https://git-scm.com/)
-- Android Studio compatível com as versões do Gradle e do plugin Android do projeto
+- Android Studio compatible with the project's Gradle and Android Gradle Plugin versions
 - Android SDK Platform 36.1
-- JDK 21 para executar o Gradle
-- Emulador ou celular com Android 7.0 (API 24) ou superior
+- JDK 21 for the Gradle daemon, as configured in `gradle/gradle-daemon-jvm.properties`
+- An emulator or physical device running Android 7.0 (API 24) or later
 
-### Clonando o repositório
+### Cloning the repository
 
 ```bash
 git clone https://github.com/GustavoFSCode/FuelCalculator.git
 cd FuelCalculator
 ```
 
-### Executando pelo Android Studio
+### Running with Android Studio
 
-1. Abra a pasta `FuelCalculator` no Android Studio.
-2. Aguarde a sincronização do Gradle e instale os componentes do SDK solicitados.
-3. No **Device Manager**, crie e inicie um emulador. Você também pode conectar um celular com **depuração USB** habilitada.
-4. Selecione o dispositivo e clique em **Run ▶**.
+1. Open the `FuelCalculator` folder in Android Studio.
+2. Wait for Gradle sync to finish and install any requested SDK components.
+3. Create and start an emulator in **Device Manager**, or connect a physical device with **USB debugging** enabled.
+4. Select the device and click **Run ▶**.
 
-### Executando pelo terminal
+### Running from the terminal
 
-Com o JDK e o Android SDK configurados e um emulador iniciado ou celular conectado, execute na raiz do projeto:
+With the JDK and Android SDK configured and an emulator running or a device connected, run the following command from the project root:
 
 **Windows — PowerShell:**
 
@@ -72,13 +72,13 @@ Com o JDK e o Android SDK configurados e um emulador iniciado ou celular conecta
 .\gradlew.bat installDebug
 ```
 
-**Linux ou macOS:**
+**Linux or macOS:**
 
 ```bash
 chmod +x gradlew
 ./gradlew installDebug
 ```
 
-Após a instalação, abra o **FuelCalculator** na lista de aplicativos do dispositivo.
+After installation, open **FuelCalculator** from the device's app list.
 
-Esses comandos também podem ser executados pelo terminal do VS Code ou Cursor, desde que o ambiente Android esteja configurado.
+You can also run these commands in the VS Code or Cursor terminal, provided your Android environment is configured.
